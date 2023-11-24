@@ -33,7 +33,7 @@ Rules of Game are :
 2. There will be 5 levels in this game. 
 3. Each level will have 5 questions.
 4. On choosing correct option your score will increase by 1 and on choosing incorrect option no points will be increased. 
-5. the questions have to be answered in 10secs while timer being displayed above. 
+5. the questions have to be answered in 20secs while timer being displayed above. 
 6. At the end of the level, scoreboard will be visible with option of exiting or restarting the quiz if you score below 3 and if scored 3 or above you will have the option to exit or start new level.
 
 
