@@ -1,7 +1,7 @@
 let button = document.getElementById("backtohome")
 
 button.onclick = ()=>{
-    window.location.href = "../screen-1/index.html";
+    window.location.href = "../index.html";
     
 }
 
