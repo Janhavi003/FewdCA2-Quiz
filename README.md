@@ -31,11 +31,6 @@ Rules of Game are :
 6.At the end of the level, scoreboard will be visible with option of exiting or restarting the quiz if you score below 3 and if scored 3 or above you will have the option to exit or start new level.
 
 
-Game has 3 screens. 
-1.Start/home page screen.
-2.Instructions and level selection screen. 
-3.Game page screen. 
-
 -To store the name and nickname of user, JavaScript storage is been used. 
 -To store score, Javascript storage is been used. 
 -Different win and lose phrases will be shown at different times. 
