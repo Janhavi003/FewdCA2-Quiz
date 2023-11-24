@@ -48,6 +48,28 @@ Websites and videos used for reference:
 - gif image: google images.
 
 
+Here are the screenshots of screens:
+
+Home screen:
+
+![Alt text](<assets/home screen.png>)
+
+Instructions and levels screen: 
+
+![Alt text](<assets/instruction_level page.png>)
+
+Game screen:
+
+![Alt text](<assets/Game screen.png>)
+
+result:
+
+![Alt text](assets/results..png)
+
+
+
+
+
 
 
 
