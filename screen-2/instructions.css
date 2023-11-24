@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Inter:wght@300&family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inter',sans-serif;
+    
+}
+
+body{
+   background-color: black;
+}
+
+#backtohome{
+    height:40px;
+    width:40px;
+    margin-top:10px;
+    margin-left:10px;
+    cursor:pointer;
+}
+/* styling the logo. */
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    margin-top: -40px;
+}
+/* Styling the main content of instructions and levels. */
+.main{
+    display:flex;
+    justify-content: space-around; 
+}
+/* Styling of instruction table. */
+.instruction{
+    background-color: #E6F6F9;
+    height:550px;
+    width:400px;
+    border-radius:50px;
+    box-shadow: 10px 8px 10px  #93d2f4;
+}
+
+.instruction h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top:20px;
+}
+
+.instruction p{
+    font-size: 17px;
+    margin-left:30px;
+    margin-right:30px;
+    line-height: 25px;
+    margin-top:20px;
+}
+
+.instruction:hover,.levels:hover{
+    background-color: rgb(1, 75, 87);
+    color:white;
+    text-decoration: none;
+}
+/* styling the levels section/table. */
+.levels{
+    background-color: #E6F6F9;
+    height:550px;
+    width:400px;
+    border-radius:50px;
+    box-shadow: 10px 8px 10px  #93d2f4;
+}
+.levels h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top:20px;
+}
+
+.modes{
+    text-align: center;
+    margin-top:30px;
+}
+
+.modes button{
+    background-color: #074B71;
+    color:white;
+    width:250px;
+    height:50px;
+    font-size: 20px;
+    border:solid 1px black;
+    box-shadow: 2px 2px black;
+    margin-top:10px;
+    cursor: pointer;
+    transition: aqua 0.3s ease;
+}
+
+.modes button:hover{
+    background-color: rgb(14, 170, 213);
+    text-decoration: none;
+}
+/* making the page responsive. */
+
+@media only screen and (max-width: 900px){
+
+.logo{
+    height: 100px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.main{
+    display:flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+.instruction{
+    width:300px;
+   margin-bottom:20px;
+}
+
+.instruction h1{
+    font-size: 25px;
+    margin-top:10px;
+}
+
+.instruction p{
+    font-size: 16px;
+    margin-left:30px;
+    margin-right:20px;
+    line-height: 21px;
+    margin-top:10px;
+}
+
+.levels{
+    width:300px;
+}
+}
+
+

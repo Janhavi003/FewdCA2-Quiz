@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="modes.css">
+</head>
+<body>
+    <div class="game">
+       <div class="mode_time">
+        <button id="button1">Back to Home</button>
+        <div id="time1"><span><B>Timer: </B></span><span id="timer"><b>10</b></span><span>sec</span></div>
+       </div>
+        <div class="quiz">
+            <h2 id ="question"><i>Your Question on the screen:</i></h2>
+            <div id="answer-buttons">
+                <button class="btn"><i>Answer 1</i></button>
+                <br>
+                <button class="btn"><i>Answer 2</i></button>
+                <br>
+                <button class="btn"><i>Answer 3</i></button>
+                <br>
+                <button class="btn"><i>Answer 4</i></button>
+            </div>
+                <button id="next-btn"><B>Reset</B></button>    
+           
+        </div>
+    </div>
+    <button id="openModalBtn">Show Score</button>
+
+<!-- The Modal -->
+<div id="scoreModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 id="gameresults">Game Results</h2>
+        <p id="resultText"></p>
+        <p id="scoreText"></p>
+        <img id="gameover"src="https://media.tenor.com/Uj4RSxn_BTMAAAAC/game-over-glitch.gif">
+    </div>
+</div>
+
+</body>
+<script src="./4.difficultmode.js"></script>
+</html>
