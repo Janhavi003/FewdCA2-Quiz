@@ -64,7 +64,7 @@ Game screen:
 
 result:
 
-![Alt text](assets/results..png)
+![Alt text](assets/result.png)
 
 
 
