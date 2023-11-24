@@ -2,7 +2,7 @@
 const button = document.getElementById("next")
 
 button.onclick = ()=>{
-    window.location.href = "../screen-2/instructions.html";
+    window.location.href = "./screen-2/instructions.html";
 }
 
 const element=document.getElementById("save")
