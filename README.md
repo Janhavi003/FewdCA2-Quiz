@@ -9,6 +9,7 @@ If the player clicks wrong answer the correct answer will be displayed in green 
 There will be timer for each question if the player is unable to answer in that time period the next question will appear and the score would not be incremented. While if the score of each level is less than the score required then player has to restart the game or else the game will move to new level.
 
 There are three screen in this game:
+
 Screen 1: Contains game logo, nickname of user.
 
 Screen 2:  Instruction section, level selection.
