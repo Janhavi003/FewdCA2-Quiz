@@ -266,7 +266,9 @@ startTimer()
 
 
 const backgroundSound = new Audio("../assets/bgm.mp3");
+backgroundSound.volume = 0.05;
 backgroundSound.play()
+
 
 backgroundSound.loop = true;
 
