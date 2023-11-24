@@ -1,5 +1,8 @@
 # Quiz Game 
 
+deployed link: https://janhavi003.github.io/FewdCA2-Quiz/
+
+
 Quiz game is a simple and fun game for 1 player. It is played in Question and Answer format. There will be questions appearing on your screen with 4 options and you have to choose correct option.
 
 The game has different levels and after each level the difficulty level will increase. And for every correct answer scores will be incremented. 
@@ -40,31 +43,40 @@ Rules of Game are :
 
 
 
-Websites and videos used for reference:
-- w3schools.com
-- youtube video: GreatStack- The quiz app. 
-- background sound and sound effects: pixabay.com
-- logo image: namelix.com
-- gif image: google images.
-
-
 Here are the screenshots of screens:
 
 Home screen:
 
 ![Alt text](<assets/home screen.png>)
 
+This is the starting page of the game where user has to enter their nickname and name. And on clicking the next button the instructions will appear.
+
 Instructions and levels screen: 
 
 ![Alt text](<assets/instruction_level page.png>)
+
+This is the instructions page where the steps to play the game are been written for user. Also there is levels sections for user to select from. User can select any level and play. 
 
 Game screen:
 
 ![Alt text](<assets/Game screen.png>)
 
+this is the game screen, where question will appear and user has to answer. There is also a back button for user to click to go back and select other level.
+
 result:
 
 ![Alt text](assets/result.png)
+
+This is the result box. Where user will be able to see their score with a winning or losing phrase based on their score and their name, nickname which they have to write on first/home page.
+
+
+
+Websites and videos used for reference:
+- w3schools.com
+- youtube video: GreatStack- The quiz app. 
+- background sound and sound effects: pixabay.com
+- logo image: namelix.com
+- gif image: google images.
 
 
 
