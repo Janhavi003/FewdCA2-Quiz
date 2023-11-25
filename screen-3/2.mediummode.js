@@ -1,3 +1,4 @@
+// Onclick function to go back to instructions page.
 const button = document.getElementById("button1")
 button.onclick = ()=>{
     window.location.href = "../screen-2/instructions.html";
@@ -58,9 +59,7 @@ const questions = [
         ]
      }
 ];
-
-
-
+// declaring all the variables. 
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -69,13 +68,11 @@ const correctSound = new Audio('../assets/correct.mp3');
 const incorrectSound = new Audio('../assets/incorrect.mp3');
 const nextSound = new Audio('../assets/nextbutton.mp3');
 
-// initializing question index and score
-
+// initializing question index and score.
 let currentQuestionIndex = 0;
 let score = 0;
 
-// creating a function to start the quiz
-
+// creating a function to start the quiz.
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
@@ -83,8 +80,7 @@ function startQuiz(){
     showQuestion();
 }
 
-// creating a function to show the questions with correct answers on click the specific answer button
-
+// creating a function to show the questions with correct answers on click the specific answer button.
 function showQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
@@ -104,8 +100,7 @@ function showQuestion(){
     });
 }
 
-// creating reset button to reset the answer options when next question is shown
-
+// creating reset button to reset the answer options when next question is shown.
 function resetState(){
     nextButton.style.display = "none";
     while(answerButton.firstChild){
@@ -114,8 +109,6 @@ function resetState(){
 }
 
 // creating the function to increment the score on clicking the correct option.
-// also disabling the cursor after selecting one option.
-
 function selectAnswer(e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -137,6 +130,7 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+// declaring the variables required for css modal.
 var modal = document.getElementById("scoreModal");
 var openModalBtn = document.getElementById("openModalBtn");
 var closeModalBtn = document.getElementById("closeModalBtn");
@@ -151,8 +145,6 @@ function openModal() {
     modal.style.display = "block";
     timer.style.display = "none";
     localStorage.setItem('score', score);
-
-
 
     // Display the result and score in the modal
     var name = localStorage.getItem('name',name);
@@ -174,13 +166,15 @@ function outsideClick(e) {
     }
 }
 
+// Storing winning and losing phrases in variables. 
+
 var winningPhrases = [
     "Congratulations! You nailed it!🥳",
     "Great job! You're a quiz master!😎",
     "You're on fire! Well done!🎉",
-    "You're a quiz genius!🥳",
+    "You're a quiz genius! 🥳",
     "Outstanding! You're making this quiz look easy.🎉"
-
+    
 ];
 
 var losingPhrases = [
@@ -196,7 +190,6 @@ function getRandomPhrase(array) {
     return array[randomIndex];
 }
 
-// Simulate a win
 // Function to determine the result text based on the score
 function getResultText(score) {
     if (score >= 3) {
@@ -209,7 +202,6 @@ function getResultText(score) {
      
 
 // creating function to handle the next button when questions end
-
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
@@ -221,7 +213,6 @@ function handleNextButton(){
 }
 
 // onclick functioning for next button.
-
 nextButton.addEventListener("click", () => {
     if(currentQuestionIndex < questions.length){
         handleNextButton();
@@ -234,8 +225,7 @@ nextButton.addEventListener("click", () => {
 });
 startQuiz();
 
-// timer
-
+// Creating a timer
 const timer = document.getElementById("timer")
 var timer1;
 let time = 20;
@@ -261,10 +251,9 @@ function resetTimer(timer1){
 
 startTimer()
 
-// Audio 
-
-
+// Background Audio 
 const backgroundSound = new Audio("../assets/bgm.mp3");
+backgroundSound.volume = 0.05;
 backgroundSound.play()
 
 backgroundSound.loop = true;
