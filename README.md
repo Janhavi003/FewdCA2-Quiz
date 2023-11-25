@@ -79,7 +79,7 @@ Websites and videos used for reference:
 - gif and images: google images.
 
 
-s
+
 
 
 
