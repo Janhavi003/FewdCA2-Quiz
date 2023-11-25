@@ -9,11 +9,11 @@ The game has different levels and after each level the difficulty level will inc
 
 If the player clicks wrong answer the correct answer will be displayed in green color while the score will not be incremented. After each level the scores will be displayed for every correct answer. 
 
-There will be timer for each question if the player is unable to answer in that time period the next question will appear and the score would not be incremented. While if the score of each level is less than the score required then player has to restart the game or else the game will move to new level.
+There will be timer for each level if the player is unable to answer in that time period then the quiz will get over and scores will be shown.If the score of each level is less than the score required then player has to restart the game or else the game will move to new level.
 
 There are three screen in this game:
 
-Screen 1: Contains game logo, nickname of user.
+Screen 1: Contains game logo, name,nickname of user.
 
 Screen 2:  Instruction section, level selection.
 
@@ -76,10 +76,10 @@ Websites and videos used for reference:
 - youtube video: GreatStack- The quiz app. 
 - background sound and sound effects: pixabay.com
 - logo image: namelix.com
-- gif image: google images.
+- gif and images: google images.
 
 
-
+s
 
 
 
