@@ -1,3 +1,4 @@
+// Declaring the level variables and onclick functioning of them.
 let button = document.getElementById("backtohome")
 
 button.onclick = ()=>{
