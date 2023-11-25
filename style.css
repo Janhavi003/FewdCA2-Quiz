@@ -55,6 +55,7 @@ body{
     margin-bottom:60px;
 }
 
+/* Name and nickname input styling */
 #Name{
     background-color: #0CC1CC;
     border-radius:30px;
@@ -78,6 +79,7 @@ body{
     padding-left:10px;
 }
 
+/* save and next button styling */
 button{
     background:hsla(191, 82%, 49%, 20%);
     border: none;

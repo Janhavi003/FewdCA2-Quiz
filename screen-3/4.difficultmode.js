@@ -145,7 +145,7 @@ function openModal() {
     timer.style.display = "none";
     localStorage.setItem('score', score);
 
-    // Display the result and score in the modal
+     // Display the result with name, nickname and score in the modal
     var name = localStorage.getItem('name',name);
     var nickname = localStorage.getItem('nickname',nickname);
     var resultText = getResultText(score);
